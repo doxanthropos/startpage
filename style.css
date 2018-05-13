@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	background: #222;
+	color: #AAA;
+	font-family: sans-serif;
+}
+
+header {
+}
+
+header h1 {
+	text-align: center;
+}
+
+content {
+	margin: 10px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: auto auto auto;
+}
+
+section {
+	background: #111;
+	padding: 10px;
+	border-style: solid;
+	border-color: #272727;
+}
+section h3 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #0055FF;
+	transition: color 0.5s;
+}
+
+a:hover {
+	color: #5599FF;
+}
+
+li {
+	list-style: none;
+}
