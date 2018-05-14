@@ -42,3 +42,8 @@ a:hover {
 li {
 	list-style: none;
 }
+
+footer {
+	margin: 10px;
+	text-align: right;
+}
