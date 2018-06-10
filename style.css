@@ -32,7 +32,7 @@ section h3 {
 a {
 	text-decoration: none;
 	color: #0055FF;
-	transition: color 0.5s;
+	transition: color background 0.5s;
 }
 
 a:hover {
@@ -46,4 +46,9 @@ li {
 footer {
 	margin: 10px;
 	text-align: right;
+}
+
+a:focus {
+  background: #5599FF;
+  color: #111;
 }
