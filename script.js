@@ -2,7 +2,8 @@
  * For now there are not many possible message, but that will hopefully change */
 const messages = [
   "Just Do It!",
-  "QUIDQUID AGIS PRUDENTER AGAS ET RESPICE FINEM"
+  "QUIDQUID AGIS PRUDENTER AGAS ET RESPICE FINEM",
+  "Perfer et obdura, dolor hic tibi proderit olim."
   ];
 window.onload = function(){
   let newMessage = getRandomMessage(messages);
